@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gosample_1726157214968-push-trigger-input-set
+  identifier: Build_gosample_1726157214968pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: GoSample_Docker_Pipeline
+  pipeline:
+    identifier: Build_gosample_1726157214968
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
